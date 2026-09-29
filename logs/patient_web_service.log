@@ -1,0 +1,367 @@
+2026-09-30T03:19:31.508+07:00 DEBUG 19200 --- [PatientController] [background-preinit] o.h.v.i.xml.config.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2026-09-30T03:19:31.510+07:00 DEBUG 19200 --- [PatientController] [background-preinit] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2026-09-30T03:19:31.511+07:00 DEBUG 19200 --- [PatientController] [background-preinit] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2026-09-30T03:19:31.511+07:00 DEBUG 19200 --- [PatientController] [background-preinit] o.h.v.i.xml.config.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2026-09-30T03:19:31.514+07:00 DEBUG 19200 --- [PatientController] [background-preinit] o.h.v.i.e.resolver.TraversableResolvers  : Found jakarta.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming Jakarta Persistence environment. Trying to instantiate Jakarta Persistence aware TraversableResolver
+2026-09-30T03:19:31.515+07:00 DEBUG 19200 --- [PatientController] [background-preinit] o.h.v.i.e.resolver.TraversableResolvers  : Instantiated Jakarta Persistence aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2026-09-30T03:19:31.528+07:00 DEBUG 19200 --- [PatientController] [background-preinit] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2026-09-30T03:19:31.538+07:00  INFO 19200 --- [PatientController] [restartedMain] c.e.p.PatientControllerApplication       : Starting PatientControllerApplication using Java 17.0.20 with PID 19200 (D:\WorkSpace\Java_BE\MD03-SpringWeb-Service\session11\PatientController\build\classes\java\main started by VINH in D:\WorkSpace\Java_BE\MD03-SpringWeb-Service\session11\PatientController)
+2026-09-30T03:19:31.539+07:00  INFO 19200 --- [PatientController] [restartedMain] c.e.p.PatientControllerApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-09-30T03:19:31.571+07:00  INFO 19200 --- [PatientController] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-30T03:19:31.571+07:00  INFO 19200 --- [PatientController] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-30T03:19:31.584+07:00 DEBUG 19200 --- [PatientController] [background-preinit] .i.e.ValidatorFactoryConfigurationHelper : HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2026-09-30T03:19:31.587+07:00 DEBUG 19200 --- [PatientController] [background-preinit] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2026-09-30T03:19:31.588+07:00 DEBUG 19200 --- [PatientController] [background-preinit] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2026-09-30T03:19:31.588+07:00 DEBUG 19200 --- [PatientController] [background-preinit] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2026-09-30T03:19:31.588+07:00 DEBUG 19200 --- [PatientController] [background-preinit] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2026-09-30T03:19:31.588+07:00 DEBUG 19200 --- [PatientController] [background-preinit] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2026-09-30T03:19:31.964+07:00  INFO 19200 --- [PatientController] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-30T03:19:31.995+07:00  INFO 19200 --- [PatientController] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interface.
+2026-09-30T03:19:32.292+07:00  INFO 19200 --- [PatientController] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-09-30T03:19:32.301+07:00  INFO 19200 --- [PatientController] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-30T03:19:32.301+07:00  INFO 19200 --- [PatientController] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-30T03:19:32.330+07:00  INFO 19200 --- [PatientController] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 759 ms
+2026-09-30T03:19:32.433+07:00 DEBUG 19200 --- [PatientController] [restartedMain] org.hibernate.orm.jpa                    : HHH008541: PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: org.springframework.boot.devtools.restart.classloader.RestartClassLoader@a077776
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: HikariDataSource (null)
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/D:/WorkSpace/Java_BE/MD03-SpringWeb-Service/session11/PatientController/build/classes/java/main/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.example.patientcontroller.entity.Patient]
+	Mapping files names []
+	Properties []
+2026-09-30T03:19:32.451+07:00 DEBUG 19200 --- [PatientController] [restartedMain] org.hibernate.orm.service                : HHH010455: Adding integrator: org.hibernate.boot.beanvalidation.BeanValidationIntegrator
+2026-09-30T03:19:32.453+07:00 DEBUG 19200 --- [PatientController] [restartedMain] org.hibernate.orm.service                : HHH010455: Adding integrator: org.hibernate.cache.internal.CollectionCacheInvalidator
+2026-09-30T03:19:32.468+07:00  INFO 19200 --- [PatientController] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-09-30T03:19:32.470+07:00 DEBUG 19200 --- [PatientController] [restartedMain] org.hibernate.orm.core                   : HHH000206: 'hibernate.properties' not found
+2026-09-30T03:19:32.484+07:00 DEBUG 19200 --- [PatientController] [restartedMain] org.hibernate.orm.cache                  : HHH90001031: Cannot default RegionFactory since no RegionFactory strategies were registered
+2026-09-30T03:19:32.485+07:00 DEBUG 19200 --- [PatientController] [restartedMain] org.hibernate.orm.cache                  : HHH90001029: Second-level cache disabled
+2026-09-30T03:19:32.761+07:00  INFO 19200 --- [PatientController] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-30T03:19:32.783+07:00  INFO 19200 --- [PatientController] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-30T03:19:33.012+07:00  INFO 19200 --- [PatientController] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@44052e68
+2026-09-30T03:19:33.013+07:00  INFO 19200 --- [PatientController] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-30T03:19:33.018+07:00 DEBUG 19200 --- [PatientController] [restartedMain] org.hibernate.orm.jdbc                   : HHH100017: Database:
+	name: PostgreSQL
+	version: 18.4
+	major: 18
+	minor: 4
+2026-09-30T03:19:33.019+07:00 DEBUG 19200 --- [PatientController] [restartedMain] org.hibernate.orm.jdbc                   : HHH100018: Driver:
+	name: PostgreSQL JDBC Driver
+	version: 42.7.13
+	major: 42
+	minor: 7
+	JDBC version: 4.2
+2026-09-30T03:19:33.052+07:00 DEBUG 19200 --- [PatientController] [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: 18.4
+2026-09-30T03:19:33.064+07:00 DEBUG 19200 --- [PatientController] [restartedMain] org.hibernate.orm.jdbc.lob               : HHH10010004: Disabling contextual LOB creation as Dialect reported it is not supported
+2026-09-30T03:19:33.065+07:00 DEBUG 19200 --- [PatientController] [restartedMain] org.hibernate.orm.jdbc                   : HHH100122: Using default JDBC fetch size: 0
+2026-09-30T03:19:33.069+07:00  INFO 19200 --- [PatientController] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_hospital_management]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: db_hospital_management/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-30T03:19:33.235+07:00 DEBUG 19200 --- [PatientController] [restartedMain] org.hibernate.orm.factory                : HHH90020001: Instantiating factory [d195bca9-625b-44d6-9bd9-5807b03ce7f0] with settings: {hibernate.format_sql=true, java.specification.version=17, sun.cpu.isalist=amd64, hibernate.resource.beans.container=org.springframework.orm.jpa.hibernate.SpringBeanContainer@7b7f5e0, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.jnu.encoding=Cp1258, hibernate.implicit_naming_strategy=org.springframework.boot.hibernate.SpringImplicitNamingStrategy, java.class.path=D:\WorkSpace\Java_BE\MD03-SpringWeb-Service\session11\PatientController\build\classes\java\main;D:\WorkSpace\Java_BE\MD03-SpringWeb-Service\session11\PatientController\build\resources\main;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.projectlombok\lombok\1.18.46\a5cfe99fdf320e84955ef653f2ce1bf789d11385\lombok-1.18.46.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-data-jpa\4.1.1\e76828cd073e4eb1ae72fbcd07bf32c76baa76f6\spring-boot-starter-data-jpa-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-validation\4.1.1\2c08283aef7b9b22b8d0892bca1c54660383b574\spring-boot-starter-validation-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-webmvc\4.1.1\7d25a0b22f776c7cc0cc18a88188113400b2b011\spring-boot-starter-webmvc-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter\4.1.1\50fe6a89fa4fd26e7caaec909ab1c4cc9afde5d4\spring-boot-starter-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-jdbc\4.1.1\6159a34f1463c146ad1d0b4f6532a61a9fc9f5b5\spring-boot-starter-jdbc-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-data-jpa\4.1.1\6bb039309f539b4f9b14e7398eafcca08a60fd23\spring-boot-data-jpa-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-jdbc\4.1.1\dde73b8622725ac440d5f3e88c2d41194085564a\spring-boot-jdbc-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-validation\4.1.1\e4a77e095430ec3b9f4c2382c1521fd07750d0f6\spring-boot-validation-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-jackson\4.1.1\f8cd6a81994a207a808564515e5104548d1967bb\spring-boot-starter-jackson-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-tomcat\4.1.1\8a7b2b2fd2ec40ed7e56359fb68c9a8b5fde315c\spring-boot-starter-tomcat-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-http-converter\4.1.1\886e76307151a64c8710c61e02a2323ab883b87c\spring-boot-http-converter-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-webmvc\4.1.1\3057d155bc66412ad906ecdd488e0fd617589151\spring-boot-webmvc-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-logging\4.1.1\c6831fe833182419def54db4c41fc34ce71f4fc5\spring-boot-starter-logging-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-autoconfigure\4.1.1\53c1c604301b4183faa480a5b9f2fd86a2f043c3\spring-boot-autoconfigure-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\jakarta.annotation\jakarta.annotation-api\3.0.0\54f928fadec906a99d558536756d171917b9d936\jakarta.annotation-api-3.0.0.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.yaml\snakeyaml\2.6\2bc14918a2f8d5414749ab12d0c590cd3198b8c1\snakeyaml-2.6.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\com.zaxxer\HikariCP\7.0.2\c2b43c946b86a14a96342379e22b004c56c6166d\HikariCP-7.0.2.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-data-commons\4.1.1\90a5dd56b22c624c8d7eedda11c57f6bc737dc72\spring-boot-data-commons-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-hibernate\4.1.1\79c857acd2f8716f53ee68f371d708372547e04a\spring-boot-hibernate-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.data\spring-data-jpa\4.1.1\44e75d6aaa629c40e03277eddacb2ed5ddd10955\spring-data-jpa-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework\spring-aspects\7.0.9\c1a59e3288b75d061034da5a9af4e254d9cd4c82\spring-aspects-7.0.9.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot\4.1.1\f958dfcba9bc998459cd7862894aa69220645c44\spring-boot-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-sql\4.1.1\1699846d0a6959d415f06ee76371d48e968d0d3e\spring-boot-sql-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-transaction\4.1.1\efb4297a46ffad58e3047604c5f4cdc07440c554\spring-boot-transaction-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework\spring-jdbc\7.0.9\b1cfa486ba259e5fc93c67db9ad199ac44ac2f6d\spring-jdbc-7.0.9.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.apache.tomcat.embed\tomcat-embed-el\11.0.24\3eafa072a45e67081452e56576ab4fe68b525fb5\tomcat-embed-el-11.0.24.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.hibernate.validator\hibernate-validator\9.1.3.Final\1873374b24290d273160e998cb57bfe0f0a5d584\hibernate-validator-9.1.3.Final.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-jackson\4.1.1\1defff7e3f9dda050f26e98da3285b4321920dc1\spring-boot-jackson-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-tomcat-runtime\4.1.1\397ae80a471fa432ef858230c7d52498ee20ecd\spring-boot-starter-tomcat-runtime-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-tomcat\4.1.1\61450290ced8f16d8d00308f1aa81423d7660dc2\spring-boot-tomcat-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework\spring-web\7.0.9\c42f4ce0cded1526527296726c4ed30335dfaa10\spring-web-7.0.9.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-servlet\4.1.1\76881b573c8639708ce3d520b428209335f007fc\spring-boot-servlet-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework\spring-webmvc\7.0.9\53b41e6290df1a75fe0e0d16608c80a93bb63bdd\spring-webmvc-7.0.9.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-classic\1.5.38\bc5873cb4a7f502ce18ce2977d98ad26b9f96444\logback-classic-1.5.38.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-to-slf4j\2.25.5\bafb12d62913815e040218e34c80d75ad6db09c1\log4j-to-slf4j-2.25.5.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.slf4j\jul-to-slf4j\2.0.18\79739c98001d5c9d078d087d5a348ec9e474ec8f\jul-to-slf4j-2.0.18.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.18\78a9e7a37cd6360e0b818e86341b24123d28d4df\slf4j-api-2.0.18.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-persistence\4.1.1\34e6dd1adfbce5de427957588683d607865c76c7\spring-boot-persistence-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.data\spring-data-commons\4.1.1\8b6450be618ed20a5f9a0065de23a5b9abb37808\spring-data-commons-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-jpa\4.1.1\bff6408ab9a9083e608320ceeeec4462cb31be78\spring-boot-jpa-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.hibernate.orm\hibernate-core\7.4.5.Final\38682c980381214df8aa66bec69d183bf91e2926\hibernate-core-7.4.5.Final.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework\spring-orm\7.0.9\6e3089628cb98c4b8498d4b0c9ff0df17de6afb\spring-orm-7.0.9.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework\spring-context\7.0.9\7eb8e01ecf1633ddd4d64ca184194f967b6bc0aa\spring-context-7.0.9.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework\spring-aop\7.0.9\35f68fd8cdf30444e18835cec152f2619c4c46c7\spring-aop-7.0.9.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework\spring-tx\7.0.9\4912434272ba05818632fe87844532ae98a4af40\spring-tx-7.0.9.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework\spring-beans\7.0.9\2bee42fa948a5f32761fd0838de3baa1f51c0225\spring-beans-7.0.9.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework\spring-core\7.0.9\e03c619fc5b26931973277f5ba65ae47967a20e3\spring-core-7.0.9.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.13.2\fc3db6d844df652a3d5db31c87fa12757f13691d\antlr4-runtime-4.13.2.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.aspectj\aspectjweaver\1.9.25.1\a713c790da4d794c7dfb542b550d4e44898d5e23\aspectjweaver-1.9.25.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\jakarta.validation\jakarta.validation-api\3.1.1\ec8622148afc5564235d17af80ea80288d0e7f92\jakarta.validation-api-3.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.jboss.logging\jboss-logging\3.6.3.Final\1cc9f976725720bb4a66f80af3e3aa6b9890d969\jboss-logging-3.6.3.Final.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.7.3\f61c7e7b81e9249b0f6a05914eff9d54fb09f4a0\classmate-1.7.3.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\tools.jackson.core\jackson-databind\3.1.5\782178f0b1fe088803c03b85eb9a406f60519044\jackson-databind-3.1.5.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-web-server\4.1.1\d1eb8e523013ac3939ae59adc5335a3de704d11b\spring-boot-web-server-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.apache.tomcat.embed\tomcat-embed-core\11.0.24\172bb449cba1a8ffcffa249727907602a4cc899\tomcat-embed-core-11.0.24.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.apache.tomcat.embed\tomcat-embed-websocket\11.0.24\8cd43556888f042c90115d54b124a4648f2b413f\tomcat-embed-websocket-11.0.24.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\io.micrometer\micrometer-observation\1.17.1\24c0b05bc06a9ab6f4e09a48949b6eccc179ca15\micrometer-observation-1.17.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework\spring-expression\7.0.9\9452ece85b97fa3e208046cc3a7e985c314b0034\spring-expression-7.0.9.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-core\1.5.38\7b1d133b29bf42ff268cf3f71d1308b80480fb8d\logback-core-1.5.38.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.25.5\6c80ea65e41f7858f7e15cb390c98c36167c7b3a\log4j-api-2.25.5.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.jspecify\jspecify\1.0.1\3d60fd98eb8ade73004f4195c37b6317e02cf3d7\jspecify-1.0.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\biz.aQute.bnd\biz.aQute.bnd.annotation\7.1.0\2f2be18c936d08cf46ea6cfa0043f34afdf38705\biz.aQute.bnd.annotation-7.1.0.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.38.0\fc0ae991433e8590ba51cd558421478318a74c8c\error_prone_annotations-2.38.0.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.osgi\org.osgi.annotation.bundle\2.0.0\f5c2cd6e670c3c5d440d3003efd5ef2ead5c68eb\org.osgi.annotation.bundle-2.0.0.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.osgi\org.osgi.annotation.versioning\1.1.2\dc3cd4ec96c0b3c5459fe00694bd73a816ecf93e\org.osgi.annotation.versioning-1.1.2.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\jakarta.persistence\jakarta.persistence-api\3.2.0\bb75a113f3fa191c2c7ee7b206d8e674251b3129\jakarta.persistence-api-3.2.0.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\jakarta.transaction\jakarta.transaction-api\2.0.1\51a520e3fae406abb84e2e1148e6746ce3f80a1a\jakarta.transaction-api-2.0.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.3.6\63e78ca6cd446c0ad166d14f03ed99e7efb3896d\commons-logging-1.3.6.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.21\b1bc1868bf02dc0bd6c7836257a036a331005309\jackson-annotations-2.21.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\tools.jackson.core\jackson-core\3.1.5\ccd7eb3269b8d33bc097b36770f367cdfe2f1150\jackson-core-3.1.5.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\io.micrometer\micrometer-commons\1.17.1\b1c3fdea68c5a81495cf1c16cf2905c5ad9f30d2\micrometer-commons-1.17.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.osgi\org.osgi.resource\1.0.0\343c88949132984b3f2d4175a72c40b77dc65619\org.osgi.resource-1.0.0.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.osgi\org.osgi.service.serviceloader\1.0.0\3728ff37909c6a3c1870b3e851342d9f2bd3cc63\org.osgi.service.serviceloader-1.0.0.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-devtools\4.1.1\8da7a6f8ac27ad1153c41909b24bef4105d1fbea\spring-boot-devtools-4.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.postgresql\postgresql\42.7.13\a6e1bd21b412d6ffb3df23cd13d507bc2cc9e37d\postgresql-42.7.13.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.55.1\3d40699936a66b2d4c1f759f2f1a0446c8cf64fc\checker-qual-3.55.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.hibernate.models\hibernate-models\1.1.1\c890a4cc781fd8720e0e2613b4a24b33cdaa80a1\hibernate-models-1.1.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy\1.18.11\8fcc3779ff85fae5164cd1b977798ca1af388e06\byte-buddy-1.18.11.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\jakarta.xml.bind\jakarta.xml.bind-api\4.0.5\161811f36cad3c65991502e80317f2f6703361df\jakarta.xml.bind-api-4.0.5.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\jaxb-runtime\4.0.9\500c199572538675d2819c938fbafe34935d8d6b\jaxb-runtime-4.0.9.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\jakarta.inject\jakarta.inject-api\2.0.1\4c28afe1991a941d7702fe1362c365f0a8641d1e\jakarta.inject-api-2.0.1.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\jakarta.activation\jakarta.activation-api\2.1.4\9e5c2a0d75dde71a0bedc4dbdbe47b78a5dc50f8\jakarta.activation-api-2.1.4.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\jaxb-core\4.0.9\3f32ec949d109d666fa30994223d1c25a47b105f\jaxb-core-4.0.9.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.eclipse.angus\angus-activation\2.0.3\7f80607ea5014fef0b1779e6c33d63a88a45a563\angus-activation-2.0.3.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\txw2\4.0.9\70325ebdebca3e7aae1dfa395fd41fc25d8a6f4e\txw2-4.0.9.jar;C:\Users\VINH\.gradle\caches\modules-2\files-2.1\com.sun.istack\istack-commons-runtime\4.1.2\18ec117c85f3ba0ac65409136afa8e42bc74e739\istack-commons-runtime-4.1.2.jar, LOGBACK_ROLLINGPOLICY_MAX_FILE_SIZE=2097152, LOGBACK_ROLLINGPOLICY_FILE_NAME_PATTERN=logs/patient_web_service.%d{yyyy-MM-dd}.%i.log.gz, java.vm.vendor=Eclipse Adoptium, hibernate.highlight_sql=true, sun.arch.data.model=64, user.variant=, java.vendor.url=https://adoptium.net/, catalina.useNaming=false, user.timezone=Asia/Saigon, jakarta.persistence.sharedCache.mode=UNSPECIFIED, org.jboss.logging.provider=slf4j, user.country.format=VN, java.vm.specification.version=17, os.name=Windows 11, APPLICATION_NAME=PatientController, jakarta.persistence.nonJtaDataSource=HikariDataSource (HikariPool-1), sun.java.launcher=SUN_STANDARD, user.country=US, sun.boot.library.path=C:\Users\VINH\.gradle\jdks\eclipse_adoptium-17-amd64-windows.2\bin, sun.java.command=com.example.patientcontroller.PatientControllerApplication, spring.application.admin.enabled=true, javax.persistence.nonJtaDataSource=HikariDataSource (HikariPool-1), com.sun.management.jmxremote=, jdk.debug=release, spring.liveBeansView.mbeanDomain=, sun.cpu.endian=little, hibernate.cdi.extensions=true, user.home=C:\Users\VINH, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2026-07-21, java.home=C:\Users\VINH\.gradle\jdks\eclipse_adoptium-17-amd64-windows.2, file.separator=\, spring.output.ansi.enabled=always, java.vm.compressedOopsMode=Zero based, line.separator=
+, hibernate.persistenceUnitName=default, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, FILE_LOG_CHARSET=UTF-8, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.headless=true, jakarta.persistence.validation.mode=AUTO, hibernate.hbm2ddl.auto=update, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=17.0.20+8, user.name=VINH, spring.jmx.enabled=true, path.separator=;, management.endpoints.jmx.exposure.include=*, os.version=10.0, java.runtime.name=OpenJDK Runtime Environment, file.encoding=UTF-8, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.show_sql=true, java.vendor.version=Temurin-17.0.20+8, LOG_FILE=logs/patient_web_service.log, java.vendor.url.bug=https://github.com/adoptium/adoptium-support/issues, java.io.tmpdir=C:\Users\VINH\AppData\Local\Temp\, catalina.home=C:\Users\VINH\AppData\Local\Temp\tomcat.8080.15429437078441650377, java.version=17.0.20, hibernate.physical_naming_strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategySnakeCaseImpl, user.dir=D:\WorkSpace\Java_BE\MD03-SpringWeb-Service\session11\PatientController, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, PID=19200, user.language.format=vi, sun.os.patch.level=, CONSOLE_LOG_CHARSET=UTF-8, LOGBACK_ROLLINGPOLICY_MAX_HISTORY=7, catalina.base=C:\Users\VINH\AppData\Local\Temp\tomcat.8080.15429437078441650377, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.registry.StandardServiceRegistryBuilder$1@60c69a09, native.encoding=Cp1258, java.library.path=C:\Users\VINH\.gradle\jdks\eclipse_adoptium-17-amd64-windows.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\dotnet\;C:\Users\VINH\AppData\Local\dart-SDK\dart-sdk\bin;C:\Users\VINH\AppData\Local\Flutter-SDK\flutter\bin;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\MongoDB\mongosh-2.4.2-win32-x64\bin;C:\Users\VINH\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\VINH\.jdks\ms-21.0.11\bin;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\VINH\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\VINH\AppData\Local\Programs\Python\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\VINH\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;D:\Microsoft VS Code\_;C:\Program Files\Azure Data Studio\bin;C:\Users\VINH\AppData\Local\dart-SDK\dart-sdk\bin;C:\Users\VINH\AppData\Local\Flutter-SDK\flutter\bin;C:\Program Files\MongoDB\Server\8.0\bin;C:\Users\VINH\.dotnet\tools;D:\MicrosoftVSCode\bin;C:\cygwin\bin;C:\msys64\ucrt64\bin;C:\Users\VINH\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\VINH\AppData\Local\Microsoft\WindowsApps;D:\ucrt64\bin;D:\IntelliJ IDEA 2026.1.4\bin;C:\Users\VINH\AppData\Local\Kingsoft\WPS Office\12.1.0.27458\clitool;., java.vendor=Eclipse Adoptium, java.vm.info=mixed mode, emulated-client, sharing, java.vm.version=17.0.20+8, java.specification.maintenance.version=1, java.rmi.server.randomIDs=true, sun.io.unicode.encoding=UnicodeLittle, hibernate.archive.scanner=org.hibernate.boot.archive.scan.internal.DisabledScanner, hibernate.connection.datasource=HikariDataSource (HikariPool-1), java.class.version=61.0, LOGGED_APPLICATION_NAME=[PatientController] }
+2026-09-30T03:19:33.246+07:00 DEBUG 19200 --- [PatientController] [restartedMain] o.h.v.i.xml.config.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2026-09-30T03:19:33.246+07:00 DEBUG 19200 --- [PatientController] [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2026-09-30T03:19:33.246+07:00 DEBUG 19200 --- [PatientController] [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2026-09-30T03:19:33.246+07:00 DEBUG 19200 --- [PatientController] [restartedMain] o.h.v.i.xml.config.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2026-09-30T03:19:33.247+07:00 DEBUG 19200 --- [PatientController] [restartedMain] o.h.v.i.e.resolver.TraversableResolvers  : Found jakarta.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming Jakarta Persistence environment. Trying to instantiate Jakarta Persistence aware TraversableResolver
+2026-09-30T03:19:33.247+07:00 DEBUG 19200 --- [PatientController] [restartedMain] o.h.v.i.e.resolver.TraversableResolvers  : Instantiated Jakarta Persistence aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2026-09-30T03:19:33.248+07:00 DEBUG 19200 --- [PatientController] [restartedMain] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2026-09-30T03:19:33.249+07:00 DEBUG 19200 --- [PatientController] [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2026-09-30T03:19:33.249+07:00 DEBUG 19200 --- [PatientController] [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2026-09-30T03:19:33.249+07:00 DEBUG 19200 --- [PatientController] [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2026-09-30T03:19:33.249+07:00 DEBUG 19200 --- [PatientController] [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2026-09-30T03:19:33.249+07:00 DEBUG 19200 --- [PatientController] [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2026-09-30T03:19:33.249+07:00 DEBUG 19200 --- [PatientController] [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2026-09-30T03:19:33.354+07:00 DEBUG 19200 --- [PatientController] [restartedMain] org.hibernate.HQL_FUNCTIONS              : Available HQL Functions:
+	abs(NUMERIC arg)
+	Double acos(NUMERIC arg)
+	Double acosh(NUMERIC arg)
+	Boolean any(BOOLEAN predicate)
+	array( ... )
+	array_agg(arg)
+	array_append( ... )
+	array_concat( ... )
+	Boolean array_contains(ARRAY haystackArray, OBJECT needleElementOrArray)
+	Boolean array_contains_nullable(ARRAY haystackArray, OBJECT needleElementOrArray)
+	array_fill(OBJECT element, INTEGER elementCount)
+	array_fill_list(OBJECT element, INTEGER elementCount)
+	array_get( ... )
+	Boolean array_includes(ARRAY haystackArray, OBJECT needleArray)
+	Boolean array_includes_nullable(ARRAY haystackArray, OBJECT needleArray)
+	Boolean array_intersects(ARRAY array0, OBJECT array1)
+	Boolean array_intersects_nullable(ARRAY array0, OBJECT array1)
+	Integer array_length(ARRAY array)
+	array_list( ... )
+	Boolean array_overlaps(ARRAY array0, OBJECT array1)
+	Boolean array_overlaps_nullable(ARRAY array0, OBJECT array1)
+	Integer array_position(ARRAY array, OBJECT element[, INTEGER startPosition])
+	int[] array_positions(ARRAY array, OBJECT element)
+	List array_positions_list(ARRAY array, OBJECT element)
+	array_prepend( ... )
+	array_remove( ... )
+	array_remove_index( ... )
+	array_replace(ARRAY array, OBJECT old, OBJECT new)
+	array_reverse(ARRAY array)
+	array_set( ... )
+	array_slice(ARRAY array, INTEGER start, INTEGER end)
+	array_sort(ARRAY array[, boolean descending[, boolean nulls_first]])
+	String array_to_string( ... )
+	array_trim(ARRAY array, INTEGER elementsToRemove)
+	Integer ascii(STRING arg)
+	Double asin(NUMERIC arg)
+	Double asinh(NUMERIC arg)
+	Double atan(NUMERIC arg)
+	Double atan2(NUMERIC arg0, NUMERIC arg1)
+	Double atanh(NUMERIC arg)
+	avg(arg)
+	bit_and(arg)
+	Integer bit_length(STRING_OR_CLOB arg)
+	bit_or(arg)
+	bitand(arg0, arg1)
+	bitnot(arg)
+	bitor(arg0, arg1)
+	bitxor(arg0, arg1)
+	Boolean bool_and(BOOLEAN predicate)
+	Boolean bool_or(BOOLEAN predicate)
+	cast(arg as Type)
+	Double cbrt(NUMERIC arg)
+	ceiling(NUMERIC arg)
+	Object changesetid(arg)
+	Character char(INTEGER arg)
+	Integer character_length(STRING_OR_CLOB arg)
+	Character chr(INTEGER arg)
+	coalesce(arg0[, arg1[, ...]])
+	String collate(STRING string as COLLATION collation)
+	(STRING string0[, STRING string1[, ...]])
+	Double corr(NUMERIC arg0, NUMERIC arg1)
+	Double cos(NUMERIC arg)
+	Double cosh(NUMERIC arg)
+	Double cot(NUMERIC arg)
+	Long count([distinct ]{arg|*})
+	Double covar_pop(NUMERIC arg0, NUMERIC arg1)
+	Double covar_samp(NUMERIC arg0, NUMERIC arg1)
+	Double cume_dist([arg0[, ...]])
+	Date current date
+	Date current time
+	Date current timestamp
+	Date current_date
+	Instant current_instant
+	Date current_time
+	Date current_timestamp
+	date_trunc(STRING field, TEMPORAL datetime)
+	dateadd(TEMPORAL_UNIT field, INTEGER magnitude, TEMPORAL datetime)
+	Long|Double datediff(TEMPORAL_UNIT field, TEMPORAL start, TEMPORAL end)
+	Double degrees(NUMERIC arg)
+	Long dense_rank([arg0[, ...]])
+	Boolean every(BOOLEAN predicate)
+	Double exp(NUMERIC arg)
+	extract(TEMPORAL_UNIT field from TEMPORAL arg)
+	first_valueANY value
+	floor(NUMERIC arg)
+	String format(TEMPORAL datetime as STRING pattern)
+	greatest(COMPARABLE arg0, COMPARABLE arg1[, arg2[, ...]])
+	String hex(arg)
+	ifnull(arg0, arg1)
+	String initcap(arg)
+	String insert(STRING string, INTEGER start, INTEGER length, STRING replacement)
+	Instant instant
+	String json_array([arg0[, ...]])
+	String json_array_append(IMPLICIT_JSON arg0, STRING arg1, ANY arg2)
+	String json_array_insert(IMPLICIT_JSON arg0, STRING arg1, ANY arg2)
+	String json_arrayagg(arg0[, arg1])
+	Boolean json_exists(IMPLICIT_JSON arg0, STRING arg1)
+	String json_insert(IMPLICIT_JSON arg0, STRING arg1, ANY arg2)
+	String json_mergepatch(IMPLICIT_JSON arg0, IMPLICIT_JSON arg1[, arg2[, ...]])
+	String json_object( ... )
+	String json_objectagg(arg0, arg1[, arg2, arg3])
+	String json_query( ... )
+	String json_remove(IMPLICIT_JSON arg0, STRING arg1)
+	String json_replace(IMPLICIT_JSON arg0, STRING arg1, ANY arg2)
+	String json_set(IMPLICIT_JSON arg0, STRING arg1, ANY arg2)
+	json_value( ... )
+	lagANY value[, INTEGER offset[, ANY default]]
+	last_valueANY value
+	leadANY value[, INTEGER offset[, ANY default]]
+	least(COMPARABLE arg0, COMPARABLE arg1[, arg2[, ...]])
+	String left(STRING string, INTEGER length)
+	length
+	String listagg(STRING arg0, STRING arg1)
+	Double ln(NUMERIC arg)
+	LocalDate local date
+	LocalDateTime local datetime
+	LocalTime local time
+	LocalDate local_date
+	LocalDateTime local_datetime
+	LocalTime local_time
+	Date localtime
+	Date localtimestamp
+	Integer locate(STRING pattern, STRING string[, INTEGER start])
+	Double log(NUMERIC arg0[, NUMERIC arg1])
+	Double log10(NUMERIC arg)
+	String lower(STRING string)
+	String lpad(STRING string, INTEGER length[, STRING padding])
+	String ltrim(STRING string[, STRING characters])
+	Date make_date(INTEGER arg0, INTEGER arg1, INTEGER arg2)
+	Date make_time(INTEGER arg0, INTEGER arg1, INTEGER arg2)
+	Date make_timestamp(INTEGER arg0, INTEGER arg1, INTEGER arg2, INTEGER arg3, INTEGER arg4, INTEGER arg5)
+	Date make_timestamptz(INTEGER arg0, INTEGER arg1, INTEGER arg2, INTEGER arg3, INTEGER arg4, INTEGER arg5[, INTEGER arg6])
+	max(COMPARABLE arg)
+	byte[] md5(arg)
+	Double median(NUMERIC arg)
+	min(COMPARABLE arg)
+	Integer mod(INTEGER arg0, INTEGER arg1)
+	mode()
+	ModificationType modificationtype(arg)
+	nth_valueANY value, INTEGER nth
+	nullif(arg0, arg1)
+	Integer octet_length(STRING_OR_CLOB arg)
+	OffsetDateTime offset datetime
+	OffsetDateTime offset_datetime
+	Integer ordinal(ENUM arg)
+	String overlay(string placing replacement from start[ for length])
+	String pad(STRING string with INTEGER length {leading|trailing}[ STRING character])
+	Double percent_rank([arg0[, ...]])
+	percentile_cont(NUMERIC arg)
+	percentile_disc(NUMERIC arg)
+	Double pi
+	Integer position(STRING pattern in STRING string)
+	Double power(NUMERIC arg0, NUMERIC arg1)
+	Double radians(NUMERIC arg)
+	Long rank([arg0[, ...]])
+	(STRING string, STRING pattern[, STRING flags])
+	Double regr_avgx(NUMERIC arg0, NUMERIC arg1)
+	Double regr_avgy(NUMERIC arg0, NUMERIC arg1)
+	Double regr_count(NUMERIC arg0, NUMERIC arg1)
+	Double regr_intercept(NUMERIC arg0, NUMERIC arg1)
+	Double regr_r2(NUMERIC arg0, NUMERIC arg1)
+	Double regr_slope(NUMERIC arg0, NUMERIC arg1)
+	Double regr_sxx(NUMERIC arg0, NUMERIC arg1)
+	Double regr_sxy(NUMERIC arg0, NUMERIC arg1)
+	Double regr_syy(NUMERIC arg0, NUMERIC arg1)
+	String repeat(STRING string, INTEGER times)
+	String replace(STRING string, STRING pattern, STRING replacement)
+	String reverse(STRING arg)
+	String right(STRING string, INTEGER length)
+	round(NUMERIC number[, INTEGER places])
+	Long row_number()
+	String rpad(STRING string, INTEGER length[, STRING padding])
+	String rtrim(STRING string[, STRING characters])
+	byte[] sha(arg)
+	Integer sign(NUMERIC arg)
+	Double sin(NUMERIC arg)
+	Double sinh(NUMERIC arg)
+	String soundex(arg)
+	sql
+	Double sqrt(NUMERIC arg)
+	Double stddev(NUMERIC arg)
+	Double stddev_pop(NUMERIC arg)
+	Double stddev_samp(NUMERIC arg)
+	String str(arg)
+	String string(ENUM arg)
+	String substr(STRING string, INTEGER start[, INTEGER length])
+	String substring(STRING string{ from|,} INTEGER start[{ for|,} INTEGER length])
+	sum(arg)
+	Double tan(NUMERIC arg)
+	Double tanh(NUMERIC arg)
+	timestampadd(TEMPORAL_UNIT field, INTEGER magnitude, TEMPORAL datetime)
+	Long|Double timestampdiff(TEMPORAL_UNIT field, TEMPORAL start, TEMPORAL end)
+	String to_char(ANY arg0[, STRING arg1, STRING arg2])
+	Date to_date(STRING arg0[, STRING arg1, STRING arg2])
+	Double to_number(STRING arg0[, STRING arg1, STRING arg2])
+	Date to_timestamp(STRING arg0[, STRING arg1, STRING arg2])
+	String translate(STRING arg0, STRING arg1, STRING arg2)
+	String trim([[{leading|trailing|both} ][STRING arg0 ]from] STRING arg1)
+	trunc( ... )
+	truncate( ... )
+	String upper(STRING string)
+	Double var_pop(NUMERIC arg)
+	Double var_samp(NUMERIC arg)
+	Double variance(NUMERIC arg)
+	String xmlagg( ... )
+	String xmlcomment(STRING arg)
+	String xmlconcat( ... )
+	String xmlelement( ... )
+	Boolean xmlexists( ... )
+	String xmlforest( ... )
+	String xmlpi( ... )
+	String xmlquery( ... )
+
+2026-09-30T03:19:33.572+07:00 DEBUG 19200 --- [PatientController] [restartedMain] org.hibernate.orm.core                   : HHH000513: Unable to create the ReflectionOptimizer for [com.example.patientcontroller.entity.Patient]: private accessor [address]
+2026-09-30T03:19:33.698+07:00  INFO 19200 --- [PatientController] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-30T03:19:33.705+07:00 DEBUG 19200 --- [PatientController] [restartedMain] org.hibernate.orm.service                : HHH010454: EventListenerRegistry access via ServiceRegistry is deprecated - use 'sessionFactory.getEventEngine().getListenerRegistry()' instead
+2026-09-30T03:19:33.740+07:00 DEBUG 19200 --- [PatientController] [restartedMain] org.hibernate.mapping.Table              : No alter strings for table: patients
+2026-09-30T03:19:33.741+07:00 DEBUG 19200 --- [PatientController] [restartedMain] org.hibernate.orm.factoryRegistry        : HHH020384: Registering SessionFactory [d195bca9-625b-44d6-9bd9-5807b03ce7f0] (default)
+2026-09-30T03:19:33.741+07:00  INFO 19200 --- [PatientController] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-30T03:19:33.794+07:00  INFO 19200 --- [PatientController] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-30T03:19:33.859+07:00 DEBUG 19200 --- [PatientController] [restartedMain] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2026-09-30T03:19:33.861+07:00 DEBUG 19200 --- [PatientController] [restartedMain] o.h.v.i.e.AbstractConfigurationImpl      : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2026-09-30T03:19:33.861+07:00 DEBUG 19200 --- [PatientController] [restartedMain] o.h.v.i.e.AbstractConfigurationImpl      : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2026-09-30T03:19:33.862+07:00 DEBUG 19200 --- [PatientController] [restartedMain] o.h.v.i.xml.config.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2026-09-30T03:19:33.862+07:00 DEBUG 19200 --- [PatientController] [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2026-09-30T03:19:33.862+07:00 DEBUG 19200 --- [PatientController] [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2026-09-30T03:19:33.862+07:00 DEBUG 19200 --- [PatientController] [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2026-09-30T03:19:33.862+07:00 DEBUG 19200 --- [PatientController] [restartedMain] o.h.v.i.xml.config.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2026-09-30T03:19:33.863+07:00 DEBUG 19200 --- [PatientController] [restartedMain] o.h.v.i.e.resolver.TraversableResolvers  : Found jakarta.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming Jakarta Persistence environment. Trying to instantiate Jakarta Persistence aware TraversableResolver
+2026-09-30T03:19:33.863+07:00 DEBUG 19200 --- [PatientController] [restartedMain] o.h.v.i.e.resolver.TraversableResolvers  : Instantiated Jakarta Persistence aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2026-09-30T03:19:33.863+07:00 DEBUG 19200 --- [PatientController] [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2026-09-30T03:19:33.864+07:00 DEBUG 19200 --- [PatientController] [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2026-09-30T03:19:33.864+07:00 DEBUG 19200 --- [PatientController] [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2026-09-30T03:19:33.864+07:00 DEBUG 19200 --- [PatientController] [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2026-09-30T03:19:33.864+07:00 DEBUG 19200 --- [PatientController] [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2026-09-30T03:19:33.864+07:00 DEBUG 19200 --- [PatientController] [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2026-09-30T03:19:33.875+07:00  WARN 19200 --- [PatientController] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-30T03:19:34.115+07:00  INFO 19200 --- [PatientController] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-09-30T03:19:34.119+07:00  INFO 19200 --- [PatientController] [restartedMain] c.e.p.PatientControllerApplication       : Started PatientControllerApplication in 2.864 seconds (process running for 3.273)
+2026-09-30T03:20:06.884+07:00  INFO 19200 --- [PatientController] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-30T03:20:06.884+07:00  INFO 19200 --- [PatientController] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-30T03:20:06.884+07:00  INFO 19200 --- [PatientController] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-09-30T03:20:06.897+07:00 DEBUG 19200 --- [PatientController] [http-nio-8080-exec-1] org.hibernate.orm.core                   : HHH006588: Opening session [tenant=null]
+2026-09-30T03:20:06.953+07:00 DEBUG 19200 --- [PatientController] [http-nio-8080-exec-1] org.hibernate.orm.core                   : HHH006583: Beginning transaction
+2026-09-30T03:20:06.967+07:00 DEBUG 19200 --- [PatientController] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    [34mselect[0m
+        p1_0.id,
+        p1_0.address,
+        p1_0.age,
+        p1_0.full_name,
+        p1_0.phone_number 
+    [34mfrom[0m
+        patients p1_0 
+    [34mwhere[0m
+        p1_0.id=?
+2026-09-30T03:20:06.988+07:00 DEBUG 19200 --- [PatientController] [http-nio-8080-exec-1] org.hibernate.orm.core                   : HHH006584: Committing transaction
+2026-09-30T03:20:07.036+07:00  WARN 19200 --- [PatientController] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.patientcontroller.exception.ResourceNotFoundException: Patient not found with id: 4]
+2026-09-30T03:20:07.036+07:00 DEBUG 19200 --- [PatientController] [http-nio-8080-exec-1] org.hibernate.session.metrics            : HHH000401: Logging session metrics:
+	432100 ns acquiring 1 JDBC connections
+	0 ns releasing 0 JDBC connections
+	102800 ns preparing 1 JDBC statements
+	1845800 ns executing 1 JDBC statements
+	0 ns executing 0 JDBC batches
+	0 ns performing 0 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	0 ns executing 0 flushes (flushing a total of 0 entities and 0 collections)
+	0 ns executing 0 pre-partial-flushes
+	0 ns executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+
+2026-09-30T03:20:30.475+07:00  INFO 19200 --- [PatientController] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-30T03:20:30.498+07:00  INFO 19200 --- [PatientController] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-30T03:20:30.501+07:00  INFO 19200 --- [PatientController] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-30T03:20:30.501+07:00 DEBUG 19200 --- [PatientController] [SpringApplicationShutdownHook] org.hibernate.orm.factory                : HHH90020005: Closing factory [d195bca9-625b-44d6-9bd9-5807b03ce7f0]
+2026-09-30T03:20:30.503+07:00  INFO 19200 --- [PatientController] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-09-30T03:20:30.505+07:00  INFO 19200 --- [PatientController] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
